@@ -34,3 +34,5 @@ export {
 export { generateReport } from './reporter.js';
 
 export type { ReportFormat } from './reporter.js';
+
+export { createLiveCaller, isLiveMode } from './live-caller.js';
