@@ -1,0 +1,16 @@
+{
+  "name": "nexus-toolkit",
+  "version": "1.0.0",
+  "description": "E2E test suite covering orchestrate, research_catalog_review, and registry_import MCP tools",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0",
+    "zod": "^3.24.0"
+  }
+}
